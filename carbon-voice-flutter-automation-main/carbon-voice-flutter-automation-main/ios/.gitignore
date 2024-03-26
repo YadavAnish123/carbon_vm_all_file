@@ -1,0 +1,10 @@
+node_modules
+local.log
+screenshots
+log/
+browserstack.err
+**/.DS_Store
+.vscode/
+.env
+tmp/
+reporter_ios/

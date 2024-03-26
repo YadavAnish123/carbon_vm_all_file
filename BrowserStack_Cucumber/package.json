@@ -1,0 +1,19 @@
+{
+  "name": "browserstack_cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserstack-node-sdk cucumber-js features/feature_files/login.feature --format json:reports/report.json"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "browserstack-local": "^1.5.5",
+    "browserstack-node-sdk": "^1.31.23",
+    "browserstack-webdriver": "^2.41.1",
+    "cucumber": "^6.0.7",
+    "selenium-webdriver": "^4.18.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

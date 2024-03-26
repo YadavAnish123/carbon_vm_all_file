@@ -1,0 +1,18 @@
+scenario 1:-
+ step 1 :-Launch stage clocksession url
+ step 2 :-Login
+ step 3 :-click on feedback.
+ step 4 :-select feedback type.
+ step 5 :-write your comments and attach some file and submit.
+ step 6 :-Logout
+
+scenario 2:-
+step 1 :-Launch stage clocksession url
+step 2 :-Login
+step 3 :-click on settings
+step 4:- Add role
+step 5:-click on edit role and change the role
+step 6:-click on save.
+step 7:-Logout
+
+

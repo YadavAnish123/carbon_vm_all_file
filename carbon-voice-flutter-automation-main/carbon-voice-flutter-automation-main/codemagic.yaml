@@ -1,0 +1,21 @@
+workflows:
+  Carbon-Voice-android:
+    name: Carbon Voice Android
+    max_build_duration: 60
+    instance_type: mac_mini_m1
+    environment:
+      node: 18.0.0
+    scripts:
+      - name: Install npm dependencies
+        script: |
+          npm install
+      - name: find app_url from BrowserStack
+        script: | 
+          APP_URL=$(curl -s -u "mechlintechnolog_RvQfYi:RRVFsUuRfysxxZipmVh1" -X GET "https://api-cloud.browserstack.com/app-automate/recent_apps/Carbon_Android_App_vOJCBDYE" | jq -r '.[0].app_url')
+          echo "$APP_URL"
+      - name: Build Android dependencies
+        script: |
+          cd android && npm install
+      - name: BrowserStack upload and execution
+        script: |      
+            npm test

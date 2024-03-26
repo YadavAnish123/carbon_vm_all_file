@@ -1,0 +1,22 @@
+2024-02-28 04:11:10 - [31merror[39m: Config file does not exist at any parent directory of 
+2024-02-28 04:11:10 - [31merror[39m: Error: Config file does not exist at any parent directory of: C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber
+    at new BrowserStackSetup (C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:7961)
+    at run (C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\node_modules\browserstack-node-sdk\src\bin\cucumber-js\command.js:2:12169)
+    at Object.lFoVU (C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\node_modules\browserstack-node-sdk\src\bin\runner.js:2:3671)
+    at captureError (C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\node_modules\browserstack-node-sdk\src\bin\runner.js:2:4219)
+    at Object.CiGWP (C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\node_modules\browserstack-node-sdk\src\bin\runner.js:2:10242)
+    at C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\node_modules\browserstack-node-sdk\src\bin\runner.js:2:10469
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\node_modules\yargs\build\index.cjs:1:58539)
+    at te.parse (C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\node_modules\yargs\build\index.cjs:1:40478)
+2024-02-28 04:13:51 - [32minfo[39m: Reading configs from C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\browserstack.yml
+2024-02-28 04:13:51 - [32minfo[39m: parallelsPerPlatform was not defined and has been set to 1 (Default)
+2024-02-28 04:13:51 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-02-28 04:13:53 - [32minfo[39m: Using app: bs://57a3250d57fc0c96c9d37cb7ba1447250786d382
+2024-02-28 04:13:57 - [31merror[39m: ENOENT: no such file or directory, open 'C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\reports\report.json'
+2024-03-08 09:53:25 - [32minfo[39m: Reading configs from C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\browserstack.yml
+2024-03-08 09:53:25 - [32minfo[39m: parallelsPerPlatform was not defined and has been set to 1 (Default)
+2024-03-08 09:53:25 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-03-08 09:53:27 - [32minfo[39m: Using app: bs://57a3250d57fc0c96c9d37cb7ba1447250786d382
+2024-03-08 09:53:32 - [31merror[39m: ENOENT: no such file or directory, open 'C:\Users\Carbon\Desktop\Anish_Yadav\BrowserStack_Cucumber\reports\report.json'

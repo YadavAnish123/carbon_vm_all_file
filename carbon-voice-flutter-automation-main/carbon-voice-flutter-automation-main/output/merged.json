@@ -1,0 +1,164 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-test-android;create-automated-test-for-mobile-application-login-through-sso",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Create automated test for mobile application login through SSO",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User launch and login to carbon voice android application through SSO",
+            "match": {
+              "location": "features\\step_definitions\\loginPageSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61990000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify user is logged in successfully",
+            "match": {
+              "location": "features\\step_definitions\\loginPageSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4812000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1741000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "retried": 0
+      }
+    ],
+    "id": "login-test-android",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login test android",
+    "tags": [],
+    "uri": "features\\feature_files\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-test;create-automated-test-for-mobile-application-login-through-google-account",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Create automated test for mobile application login through google account",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User launch and login to carbon voice android application through google account",
+            "match": {
+              "location": "features\\step_definitions\\loginPageSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52072000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Verify user is logged in successfully",
+            "match": {
+              "location": "features\\step_definitions\\loginPageSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7558000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1454000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "retried": 0
+      }
+    ],
+    "id": "login-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login test",
+    "tags": [],
+    "uri": "features\\feature_files\\login.feature"
+  }
+]

@@ -1,0 +1,20 @@
+
+userName: mechlintechnolog_RvQfYi
+accessKey: RRVFsUuRfysxxZipmVh1
+projectName: Carbon Voice Automation
+name: Android Test
+buildName: Android Execution 23/02/2024-22:39:36
+
+source: node:appium-sample-sdk:v1.31.2
+
+app: "bs://57a3250d57fc0c96c9d37cb7ba1447250786d382"
+
+platforms:
+  - deviceName: Samsung galaxy S23
+    osVersion: 13.0
+    platformName: android
+browserstackLocal: false
+debug: true
+networkLogs: true
+consoleLogs: errors 
+interactiveDebugging: true

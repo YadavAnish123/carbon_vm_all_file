@@ -1,0 +1,8 @@
+node_modules
+local.log
+screenshots
+log/
+**/.DS_Store
+.vscode/
+.env
+package-lock.json
